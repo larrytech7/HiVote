@@ -1,4 +1,12 @@
 kbawards
 ========
 
-art, culture and talents of the community get rewards. 
+HiVote is an android application that allows users to organise public voting events and get stats in real-time.
+--
+Installation
+
+//TODO
+--
+Usage
+
+//TODO
