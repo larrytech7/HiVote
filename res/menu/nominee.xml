@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.icetech.votearts.NomineeActivity$NomineeFragment" >
+
+    <item
+        android:id="@+id/refresh"
+        android:icon="@android:drawable/ic_popup_sync"
+        android:title="@string/menu_refresh"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/comment"
+        android:icon="@android:drawable/stat_notify_chat"
+        android:title="@string/menu_refresh"
+        app:showAsAction="always" />
+  
+</menu>

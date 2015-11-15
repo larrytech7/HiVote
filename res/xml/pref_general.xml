@@ -1,0 +1,32 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="autoupdate"
+        android:summary="@string/pref_description_social_recommendations"
+        android:title="@string/pref_title_social_recommendations"
+        android:icon="@android:drawable/stat_notify_sync" />
+    <PreferenceScreen android:title="Profile" android:key="profile" android:icon="@drawable/ic_nominee">
+        <EditTextPreference android:key="usrname"
+            android:persistent="true"
+            android:title="Voting Username"
+            android:summary="Publicly available name"
+            android:defaultValue="HivoteUser"
+            android:icon="@drawable/user"
+            />
+        <EditTextPreference android:key="email"
+            android:title="Email"
+            android:summary="Used to sign up with app"
+            android:enabled="false"
+            android:persistent="true"
+            android:icon="@drawable/mail" />
+       <EditTextPreference android:key="phone"
+            android:title="Phone Number"
+            android:summary="User mobile phone number"
+            android:enabled="false"
+            android:persistent="true"
+            android:icon="@drawable/phone" />
+        
+    </PreferenceScreen>
+
+</PreferenceScreen>

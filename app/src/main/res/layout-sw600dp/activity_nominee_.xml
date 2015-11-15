@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal"
+    tools:context="com.iceteck.hivoteplus.NomineeActivity"
+     ><!-- android:id="@+id/container" tools:ignore="MergeRootFrame"     android:name="com.icetech.votearts.NomineeActivity" -->
+
+	<!-- Controls the nominee fragment on the left  -->
+
+	<fragment
+	    android:id="@+id/container"
+	    android:name="com.iceteck.hivoteplus.NomineeFragment"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="3"
+	    tools:layout="@android:layout/list_content">
+	<ImageButton
+	         android:id="@+id/btn_add_float"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"
+	         android:layout_gravity="right|bottom"
+	         android:layout_margin="5dip"
+	         android:background="@drawable/profile_preview"
+	         android:padding="10dip"
+	         android:src="@android:drawable/stat_notify_chat"
+	         android:contentDescription="floating button"
+	         android:visibility="visible" />    
+	</fragment>
+	
+	<!-- Controls the detail fragment on the right -->
+	<FrameLayout 
+	    android:id="@+id/detail_container"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="4">
+    </FrameLayout>
+
+</LinearLayout>

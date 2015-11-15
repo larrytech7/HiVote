@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory 
+        android:key="user_profile"
+        android:title="@string/title_activity_app_settings">
+        <!-- This preference is for keeping a voter's name -->
+	<EditTextPreference 
+	    android:key="contact"
+	    android:title="@string/contact"
+	    android:summary="Your voter name."
+	    android:defaultValue="owner"/>
+<!-- Keeps the Voter's email -->
+	<EditTextPreference 
+	    android:key="cemail"
+	    android:title="@string/duration"
+	    android:summary="Enter Your email "
+	    android:defaultValue="anonymous@icetech.com"
+	    />
+	<!-- Keep voter's number -->
+	<EditTextPreference 
+	    	android:key="cnumber"
+	    	android:title="@string/cnumber"
+	    	android:summary="Enter your contact number"
+	    	android:defaultValue="2000000000"/>
+	
+	</PreferenceCategory>
+		
+</PreferenceScreen>

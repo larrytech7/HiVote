@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/profileScroll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ababff" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:background="#ababff"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/nomineeProfile"
+            android:layout_width="match_parent"
+            android:layout_height="217dp"
+            android:background="@drawable/pic1"
+            android:orientation="vertical" >
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#ababff"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <TextView
+                android:id="@+id/nomineeName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nominee"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#00AE68"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/nominee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/nomination"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="#000099"
+                android:textSize="25sp" />
+
+            <TextView
+                android:id="@+id/nomineeInfo"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#fff"
+                android:minLines="3"
+                android:scrollHorizontally="true"
+                android:text="@string/description"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp" >
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/voteactor"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textColor="#000099"
+                    android:textSize="25sp" />
+
+                <Button
+                    android:id="@+id/voteNominee"
+                    style="@style/AppTheme"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="@drawable/vote"
+                    android:maxWidth="64dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

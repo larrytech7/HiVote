@@ -1,0 +1,358 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+/root/Desktop/Android Application/HiVote
+                     -                  
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .idea/
+* .idea/.name
+* .idea/compiler.xml
+* .idea/copyright/
+* .idea/copyright/IceTech_Inc.xml
+* .idea/copyright/profiles_settings.xml
+* .idea/encodings.xml
+* .idea/misc.xml
+* .idea/modules.xml
+* .idea/scopes/
+* .idea/scopes/scope_settings.xml
+* .idea/vcs.xml
+* .idea/workspace.xml
+* README.md
+* app/
+* app/build.gradle
+* app/libs/
+* app/libs/androidasync.jar
+* app/libs/ion.jar
+* app/src/
+* app/src/main/
+* app/src/main/AndroidManifest.xml
+* app/src/main/java/
+* app/src/main/java/broadcastreceivers/
+* app/src/main/java/broadcastreceivers/NetworkBroadcastReceiver.java
+* app/src/main/java/com/
+* app/src/main/java/com/iceteck/
+* app/src/main/java/com/iceteck/hivoteplus/
+* app/src/main/java/com/iceteck/hivoteplus/AddCategoryActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/AppSettingsActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/CategoryActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/CategoryAdapter.java
+* app/src/main/java/com/iceteck/hivoteplus/CommentAdapter.java
+* app/src/main/java/com/iceteck/hivoteplus/CommentsActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/DetailActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/DetailFragment.java
+* app/src/main/java/com/iceteck/hivoteplus/FetchNomineeTask.java
+* app/src/main/java/com/iceteck/hivoteplus/MainActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/NomineeActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/NomineeAdapter.java
+* app/src/main/java/com/iceteck/hivoteplus/NomineeFragment.java
+* app/src/main/java/com/iceteck/hivoteplus/OrganisationActivity.java
+* app/src/main/java/com/iceteck/hivoteplus/SplashActivity.java
+* app/src/main/java/com/iceteck/services/
+* app/src/main/java/com/iceteck/services/UpdateService.java
+* app/src/main/java/com/iceteck/tasks/
+* app/src/main/java/com/iceteck/tasks/SignupTask.java
+* app/src/main/java/iceteck/
+* app/src/main/java/iceteck/model/
+* app/src/main/java/iceteck/model/data/
+* app/src/main/java/iceteck/model/data/DbHelper.java
+* app/src/main/java/iceteck/model/data/MContentProvider.java
+* app/src/main/java/iceteck/model/data/ORMModel.java
+* app/src/main/java/sync/
+* app/src/main/java/sync/AppAuthenticator.java
+* app/src/main/java/sync/HiVoteAuthenticatorService.java
+* app/src/main/java/sync/HiVoteSyncAdapter.java
+* app/src/main/java/sync/HivoteSyncService.java
+* app/src/main/res/
+* app/src/main/res/anim/
+* app/src/main/res/anim/cycle.xml
+* app/src/main/res/anim/hyperspace_in.xml
+* app/src/main/res/anim/hyperspace_out.xml
+* app/src/main/res/anim/wave_scale.xml
+* app/src/main/res/drawable-hdpi/
+* app/src/main/res/drawable-hdpi/africa.gif
+* app/src/main/res/drawable-hdpi/arrow.png
+* app/src/main/res/drawable-hdpi/camer.jpg
+* app/src/main/res/drawable-hdpi/cshape.xml
+* app/src/main/res/drawable-hdpi/drawer_shadow.9.png
+* app/src/main/res/drawable-hdpi/err_network.png
+* app/src/main/res/drawable-hdpi/ic_category.png
+* app/src/main/res/drawable-hdpi/ic_drawer.png
+* app/src/main/res/drawable-hdpi/ic_engage1_selected.png
+* app/src/main/res/drawable-hdpi/ic_engage1_unselected.png
+* app/src/main/res/drawable-hdpi/ic_launcher.png
+* app/src/main/res/drawable-hdpi/ic_launcher1.png
+* app/src/main/res/drawable-hdpi/ic_launcher2.png
+* app/src/main/res/drawable-hdpi/ic_launcher3.png
+* app/src/main/res/drawable-hdpi/ic_launcher4.png
+* app/src/main/res/drawable-hdpi/ic_launcher5.png
+* app/src/main/res/drawable-hdpi/ic_launcher6.png
+* app/src/main/res/drawable-hdpi/ic_nominee.png
+* app/src/main/res/drawable-hdpi/ic_view.png
+* app/src/main/res/drawable-hdpi/launcher.png
+* app/src/main/res/drawable-ldpi/
+* app/src/main/res/drawable-ldpi/africa.gif
+* app/src/main/res/drawable-ldpi/app.png
+* app/src/main/res/drawable-ldpi/artist.png
+* app/src/main/res/drawable-ldpi/camer.jpg
+* app/src/main/res/drawable-ldpi/camera.png
+* app/src/main/res/drawable-ldpi/email.png
+* app/src/main/res/drawable-ldpi/fb.png
+* app/src/main/res/drawable-ldpi/google.png
+* app/src/main/res/drawable-ldpi/logo.png
+* app/src/main/res/drawable-ldpi/map.png
+* app/src/main/res/drawable-ldpi/phone.png
+* app/src/main/res/drawable-ldpi/pick.png
+* app/src/main/res/drawable-ldpi/send.png
+* app/src/main/res/drawable-ldpi/signup.png
+* app/src/main/res/drawable-ldpi/song.png
+* app/src/main/res/drawable-ldpi/star.png
+* app/src/main/res/drawable-ldpi/user.png
+* app/src/main/res/drawable-ldpi/userp.png
+* app/src/main/res/drawable-ldpi/video.png
+* app/src/main/res/drawable-mdpi/
+* app/src/main/res/drawable-mdpi/africa.gif
+* app/src/main/res/drawable-mdpi/afrika.jpg
+* app/src/main/res/drawable-mdpi/camer.jpg
+* app/src/main/res/drawable-mdpi/categorie.png
+* app/src/main/res/drawable-mdpi/drawer_shadow.9.png
+* app/src/main/res/drawable-mdpi/firstscreen.png
+* app/src/main/res/drawable-mdpi/home.png
+* app/src/main/res/drawable-mdpi/ic_category.png
+* app/src/main/res/drawable-mdpi/ic_drawer.png
+* app/src/main/res/drawable-mdpi/ic_engage1_selected.png
+* app/src/main/res/drawable-mdpi/ic_engage1_unselected.png
+* app/src/main/res/drawable-mdpi/ic_launcher.png
+* app/src/main/res/drawable-mdpi/ic_launcher1.png
+* app/src/main/res/drawable-mdpi/ic_launcher2.png
+* app/src/main/res/drawable-mdpi/ic_launcher3.png
+* app/src/main/res/drawable-mdpi/ic_launcher4.png
+* app/src/main/res/drawable-mdpi/ic_launcher5.png
+* app/src/main/res/drawable-mdpi/ic_launcher6.png
+* app/src/main/res/drawable-mdpi/ic_nominee.png
+* app/src/main/res/drawable-mdpi/ic_view.png
+* app/src/main/res/drawable-mdpi/launcher.png
+* app/src/main/res/drawable-mdpi/loading.png
+* app/src/main/res/drawable-mdpi/logo.png
+* app/src/main/res/drawable-mdpi/logout.png
+* app/src/main/res/drawable-mdpi/mail.png
+* app/src/main/res/drawable-mdpi/mobilenw2.jpg
+* app/src/main/res/drawable-mdpi/pic1.jpg
+* app/src/main/res/drawable-mdpi/shape.xml
+* app/src/main/res/drawable-mdpi/vote.png
+* app/src/main/res/drawable-xhdpi/
+* app/src/main/res/drawable-xhdpi/africa.gif
+* app/src/main/res/drawable-xhdpi/camer.jpg
+* app/src/main/res/drawable-xhdpi/drawer_shadow.9.png
+* app/src/main/res/drawable-xhdpi/ic_category.png
+* app/src/main/res/drawable-xhdpi/ic_drawer.png
+* app/src/main/res/drawable-xhdpi/ic_engage1_selected.png
+* app/src/main/res/drawable-xhdpi/ic_engage1_unselected.png
+* app/src/main/res/drawable-xhdpi/ic_launcher.png
+* app/src/main/res/drawable-xhdpi/ic_launcher1.png
+* app/src/main/res/drawable-xhdpi/ic_launcher2.png
+* app/src/main/res/drawable-xhdpi/ic_launcher3.png
+* app/src/main/res/drawable-xhdpi/ic_launcher4.png
+* app/src/main/res/drawable-xhdpi/ic_launcher5.png
+* app/src/main/res/drawable-xhdpi/ic_launcher6.png
+* app/src/main/res/drawable-xhdpi/ic_nominee.png
+* app/src/main/res/drawable-xhdpi/ic_view.png
+* app/src/main/res/drawable-xhdpi/launcher.png
+* app/src/main/res/drawable-xhdpi/loading.png
+* app/src/main/res/drawable-xhdpi/logo.png
+* app/src/main/res/drawable-xhdpi/mail.png
+* app/src/main/res/drawable-xhdpi/phonenumber.png
+* app/src/main/res/drawable-xhdpi/shape.xml
+* app/src/main/res/drawable-xhdpi/user.png
+* app/src/main/res/drawable-xxhdpi/
+* app/src/main/res/drawable-xxhdpi/africa.gif
+* app/src/main/res/drawable-xxhdpi/camer.jpg
+* app/src/main/res/drawable-xxhdpi/drawer_shadow.9.png
+* app/src/main/res/drawable-xxhdpi/ic_category.png
+* app/src/main/res/drawable-xxhdpi/ic_drawer.png
+* app/src/main/res/drawable-xxhdpi/ic_engage1_selected.png
+* app/src/main/res/drawable-xxhdpi/ic_engage1_unselected.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher1.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher2.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher3.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher4.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher5.png
+* app/src/main/res/drawable-xxhdpi/ic_launcher6.png
+* app/src/main/res/drawable-xxhdpi/ic_nominee.png
+* app/src/main/res/drawable-xxhdpi/ic_view.png
+* app/src/main/res/drawable-xxhdpi/launcher.png
+* app/src/main/res/drawable-xxhdpi/loading.png
+* app/src/main/res/drawable-xxhdpi/logo.png
+* app/src/main/res/drawable-xxhdpi/mail.png
+* app/src/main/res/drawable-xxhdpi/shape.xml
+* app/src/main/res/drawable/
+* app/src/main/res/drawable/actionbarbg.xml
+* app/src/main/res/drawable/app_bg.xml
+* app/src/main/res/drawable/arrow.png
+* app/src/main/res/drawable/err_network.png
+* app/src/main/res/drawable/item_selector.xml
+* app/src/main/res/drawable/layer_card_background.xml
+* app/src/main/res/drawable/line.png
+* app/src/main/res/drawable/profile_preview.xml
+* app/src/main/res/drawable/round_shape.xml
+* app/src/main/res/drawable/signupbg.png
+* app/src/main/res/drawable/vote1.jpeg
+* app/src/main/res/layout-sw600dp/
+* app/src/main/res/layout-sw600dp/activity_nominee_.xml
+* app/src/main/res/layout-sw600dp/fragment_nominee.xml
+* app/src/main/res/layout/
+* app/src/main/res/layout/activity_add_category.xml
+* app/src/main/res/layout/activity_category.xml
+* app/src/main/res/layout/activity_comments.xml
+* app/src/main/res/layout/activity_detail.xml
+* app/src/main/res/layout/activity_groups.xml
+* app/src/main/res/layout/activity_main.xml
+* app/src/main/res/layout/activity_nominee.xml
+* app/src/main/res/layout/activity_nominee_.xml
+* app/src/main/res/layout/activity_organisation.xml
+* app/src/main/res/layout/activity_splash.xml
+* app/src/main/res/layout/create_category.xml
+* app/src/main/res/layout/details.xml
+* app/src/main/res/layout/form.xml
+* app/src/main/res/layout/fragment_add_category.xml
+* app/src/main/res/layout/fragment_comments.xml
+* app/src/main/res/layout/fragment_detail.xml
+* app/src/main/res/layout/fragment_groups.xml
+* app/src/main/res/layout/fragment_main.xml
+* app/src/main/res/layout/fragment_nominee.xml
+* app/src/main/res/layout/fragment_organisation.xml
+* app/src/main/res/layout/fragment_splash.xml
+* app/src/main/res/layout/intro.xml
+* app/src/main/res/layout/item_layout_comments.xml
+* app/src/main/res/layout/list_item_categories.xml
+* app/src/main/res/layout/list_item_comments_err.xml
+* app/src/main/res/layout/list_item_nominee.xml
+* app/src/main/res/layout/list_item_organisation.xml
+* app/src/main/res/menu/
+* app/src/main/res/menu/category.xml
+* app/src/main/res/menu/comments.xml
+* app/src/main/res/menu/detail.xml
+* app/src/main/res/menu/global.xml
+* app/src/main/res/menu/groups.xml
+* app/src/main/res/menu/main.xml
+* app/src/main/res/menu/nominee.xml
+* app/src/main/res/menu/organisation.xml
+* app/src/main/res/menu/splash.xml
+* app/src/main/res/values-v11/
+* app/src/main/res/values-v11/styles.xml
+* app/src/main/res/values-v14/
+* app/src/main/res/values-v14/styles.xml
+* app/src/main/res/values-w820dp/
+* app/src/main/res/values-w820dp/dimens.xml
+* app/src/main/res/values/
+* app/src/main/res/values/dimens.xml
+* app/src/main/res/values/strings.xml
+* app/src/main/res/values/strings_activity_app_settings.xml
+* app/src/main/res/values/styles.xml
+* app/src/main/res/xml/
+* app/src/main/res/xml/appprefrences.xml
+* app/src/main/res/xml/authenticator.xml
+* app/src/main/res/xml/pref_general.xml
+* app/src/main/res/xml/pref_headers.xml
+* app/src/main/res/xml/searchable.xml
+* app/src/main/res/xml/syncadapter.xml
+* build.gradle
+* gradle/
+* gradle/wrapper/
+* gradle/wrapper/gradle-wrapper.jar
+* gradle/wrapper/gradle-wrapper.properties
+* gradlew
+* gradlew.bat
+* ic_launcher-web.png
+* ic_view-web.png
+* proguard-project.txt
+* settings.gradle
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:19.1.0
+gson-2.2.4.jar => com.google.code.gson:gson:2.2.4
+
+Potentially Missing Dependency:
+-------------------------------
+When we replaced the following .jar files with a Gradle dependency, we
+inferred the dependency version number from the filename. This
+specific version may not actually be available from the repository.
+If you get a build error stating that the dependency is missing, edit
+the version number to for example "+" to pick up the latest version
+instead. (This may require you to update your code if the library APIs
+have changed.)
+
+gson-2.2.4.jar => version 2.2.4 in com.google.code.gson:gson:2.2.4
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:19.1.0]
+google-play-services_lib => [com.google.android.gms:play-services:+]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets/
+* libs/androidasync.jar => app/libs/androidasync.jar
+* libs/ion.jar => app/libs/ion.jar
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

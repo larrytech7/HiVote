@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff0000"
+    android:dividerPadding="5dp"
+    android:orientation="vertical"
+    android:showDividers="middle"
+    tools:context=".CandidateActivity" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00aa00"
+        android:height="50dp"
+        android:paddingLeft="10dp"
+        android:paddingTop="7dp"
+        android:text="@string/artist_hint"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <ListView
+        android:id="@+id/nominee_listview"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="145.06"
+        android:animateLayoutChanges="true"
+        android:background="#ffffff"
+        android:divider="#006600"
+        android:dividerHeight="1dp"
+        android:drawSelectorOnTop="true"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:scrollingCache="true" >
+
+    </ListView>
+
+</LinearLayout>

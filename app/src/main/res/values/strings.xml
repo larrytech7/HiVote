@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HivotePlus</string>
+    <string name="action_exit">Quit</string>
+    <string name="hello_world">Engage and Vote</string>
+    <string name="action_settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="action_share">Share</string>
+    <string name="share_text">Great! I got free and fair voting with this App. Join me make our society a better place with this app. http://icetech.webege.com/hivoteplus.apk </string>
+    <string name="err_vote">Sorry, you can\'t vote twice for this nominee</string>
+    <string name="title_activity_category">Categories|Events</string>
+    <string name="title_activity_artist">Nominees</string>
+    <string name="artist_hint">Vote ONE nominee</string>
+    <string name="phoneretrievalerror">Sorry, Hivote can\'t seem to retrieve your phone number. <br />         You may use our custom signup to continue.<br />You may not be using a mobile or your sim card might not be properly inserted.</string>
+    <string name="plus_generic_error">Sign in with Google is not available.</string>
+    <string name="msg_success">Great! your event has been created successfully.</string>
+    <string name="profile_title">Profile | Portfolio</string>
+    <string name="profile_name">Name </string>
+    <string name="author"> Created by </string>
+    <string name="profile_nomination">Reputation </string>
+    <string name="demotext">This is a demo text for the profile nomination of the appp that is expected to win for this category of apps. Trust it guys, Pied Piper is just getting started</string>
+    <string name="helptext"><h1><b>Use the create icon to create a new Event. Add the nominees as directed.\n
+	     Save your event and in some few minutes it should be listed amongst others.\n
+	     You could always refresh if it doesn\'t appear after a long time.</b></h1></string>
+    <string name="cnumber">Phone number</string>
+    <string name="title_activity_app_settings">User Profile</string>
+    <!-- Strings used as key names in the preferences file -->
+    <string name="contact">Voting Name</string>
+    <string name="duration">Email used for submitting votes</string>
+    <string name="about">About</string>
+    <string name="action_search">Search for Organisations</string>
+    <string name="menu_exit">Exit </string>
+    <string name="menu_add">Add </string>
+    <string name="menu_refresh">Refresh</string>
+    <string name="leadboard">Results</string>
+    <string name="about_text"><h3>This app helps you organise voting events of any kind and get them happen in a free and fair manner.</h3></string>
+    <string name="about_string">Author: Larry Lite  \n\n Contact: larryakah@gmail.com \n\nHiVote Ver 1.0\n\nOrganise and simulate elections</string>
+    <string name="anon">Normal User for the app. No special Privileges</string>
+    <string name="notif_content">A new voting event was just published.\n
+        Check it out, it might interest you.\n
+        Thanks, <strong><i>HiVote Plus</i></strong></string>
+    <string name="email_hint">Enter your Email</string>
+    <string name="saven"> Create </string>
+    <string name="phone_hint">Phone Number</string>
+    <string name="your_phone_here">Your phone # here</string>
+    <string name="phone">Enter phone number to use g+</string>
+    <string name="email">E-mail here</string>
+    <string name="or">OR</string>
+    <string name="contentDescription">background</string>
+    <string name="login">Vote Now</string>
+    <string name="loading">Loading ... </string>
+    <string name="ivote">I Vote</string>
+    <string name="err_network">Server Busy, try again later.</string>
+    <string name="err_field_required">This field is required</string>
+    <string name="nominee">Nominee Name Here</string>
+    <string name="nomination">Reputation</string>
+    <string name="description">Nominee Reputation built over time</string>
+    <string name="voteactor">Vote Now!</string>
+    <string name="chooseCategorie">Choose your favorite category</string>
+    <string name="signup">Please fill this form to sign for free</string>
+    <string name="signu">Sign Up</string>
+    <string name="cancel">Cancel</string>
+    <string name="sync_account_type" translatable="false">hivote.icetech.com</string>
+    <string name="content_authority" translatable="false">com.icetech.provider.ivote</string>
+    <string name="shr">Share</string>
+    <string name="sgup">Sign Up free</string>
+    <string name="add_nominee">Add a Nominee</string>
+    <string name="category_add_title">"Title for your Category"</string>
+    <string name="categroy_description_hint">Give a brief Description</string>
+    <string name="title_activity_add_category">New Event|Category</string>
+    <string name="title_activity_nominee">NomineeList</string>
+    <string name="title_activity_detail">Nominee Info</string>
+    <string name="title_activity_groups">Groups</string>
+    <string name="commentinvalid">Invalid Comment. Check and try again</string>
+    <string name="title_activity_comments">Comments</string>
+    <string name="comments">Comments</string>
+    <string name="title_activity_organisation">Organisations</string>
+    <string name="organisation">Select An Organisation to participate</string>
+    <string name="details">Learn More</string>
+    <string name="enter">Engage</string>
+    <string name="date">Date</string>
+    <string name="err_empty_netwk_comments">No Comments Or Network Error</string>
+    <string name="thumbpick">Pick Thumbnail</string>
+    <string name="delete">Delete</string>
+    <string name="sloganx">Have fun voting and enjoy voting rights.</string>
+    <string name="noaccount"> Sign up!</string>
+    <string name="title_activity_splash">Welcome</string>
+    <string name="eventlive">Live</string>
+    <string name="eventdead">Closed</string>
+
+</resources>

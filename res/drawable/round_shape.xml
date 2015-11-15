@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+       <item>        
+  <shape android:shape="oval">
+  
+  <!-- Specify a dark border -->
+  <stroke 
+    android:width="5dp"
+    android:color="#22B14C" /><!--  #ff1ca8f4-->
+  
+  <!-- Specify the margins that all content inside the drawable must adhere to -->
+  <padding
+    android:left="5dp"
+    android:right="5dp"
+    android:top="5dp"
+    android:bottom="5dp" />
+  
+  <size
+      android:width="80dp"
+      android:height="80dp"
+      />
+  <solid android:color="#fff"></solid>
+  
+	</shape>
+</item>
+
+</selector>

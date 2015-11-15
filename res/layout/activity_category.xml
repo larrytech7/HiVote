@@ -1,0 +1,51 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CategoryActivity" >
+<!--ff1ca8f4  #ccc -->
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#ff1ca8f4"
+            android:clickable="false"
+            android:height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="7dp"
+            android:text="@string/hello_world"
+            android:textColor="#000000"
+            android:textSize="22sp" />
+
+        <ListView
+            android:id="@+id/categoryListView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="#DCDEE3"
+            android:divider="#DCDEE3"
+            android:dividerHeight="15dp"
+            android:drawSelectorOnTop="true"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp" >
+
+        </ListView>
+    </LinearLayout>
+
+<!-- <ImageButton
+    android:id="@+id/btn_add_cat"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignRight="@+id/LinearLayout"
+    android:layout_below="@+id/LinearLayout1"
+    android:layout_gravity="right|bottom"
+    android:layout_margin="5dip"
+    android:layout_toRightOf="@+id/LinearLayout"
+    android:background="@drawable/profile_preview"
+    android:contentDescription="floating button"
+    android:padding="5dip"
+    android:src="@android:drawable/ic_menu_add"
+    android:visibility="visible" /> -->
