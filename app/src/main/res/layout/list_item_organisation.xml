@@ -8,7 +8,7 @@
         android:id="@+id/organisationThumbnail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/abc_cab_background_top_holo_dark" />
+        android:src="@android:drawable/ic_menu_report_image" />
 
     <TextView
         android:id="@+id/organisationnameTextView"
@@ -20,7 +20,7 @@
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:src="@drawable/arrow" />
 
 </LinearLayout>

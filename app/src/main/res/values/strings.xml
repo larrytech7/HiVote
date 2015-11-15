@@ -24,7 +24,6 @@
 	     Save your event and in some few minutes it should be listed amongst others.\n
 	     You could always refresh if it doesn\'t appear after a long time.</b></h1></string>
     <string name="cnumber">Phone number</string>
-    <string name="title_activity_app_settings">User Profile</string>
     <!-- Strings used as key names in the preferences file -->
     <string name="contact">Voting Name</string>
     <string name="duration">Email used for submitting votes</string>
