@@ -7,20 +7,20 @@
 	<EditTextPreference 
 	    android:key="contact"
 	    android:title="@string/contact"
-	    android:summary="Your voter name."
+	    android:summary="@string/contact"
 	    android:defaultValue="owner"/>
 <!-- Keeps the Voter's email -->
 	<EditTextPreference 
 	    android:key="cemail"
 	    android:title="@string/duration"
-	    android:summary="Enter Your email "
-	    android:defaultValue="anonymous@icetech.com"
+	    android:summary="@string/email_hint"
+	    android:defaultValue="anonymous@iceteck.com"
 	    />
 	<!-- Keep voter's number -->
 	<EditTextPreference 
 	    	android:key="cnumber"
 	    	android:title="@string/cnumber"
-	    	android:summary="Enter your contact number"
+	    	android:summary="@string/phone_hint"
 	    	android:defaultValue="2000000000"/>
 	
 	</PreferenceCategory>
