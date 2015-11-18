@@ -11,4 +11,4 @@ HiVote is an android application that allows users to organise public voting eve
 ========
  Usage
 
-TODO
+NO LONGER SUPPORTED. PROJECT TERMINATED
